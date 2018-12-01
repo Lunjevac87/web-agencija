@@ -1,0 +1,38 @@
+header {
+  background-color: #104E8B;
+  text-align: center;
+  color: #E6E6FA;
+  padding: 5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+  background-color: #bcd2ee;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  }
+
+.okvir {
+  display: flex;
+  justify-content: center;
+}
+
+.okvir div {
+  width: 50%;
+  height: 400px;
+  background: #bcd2ee;
+  margin: 10px;
+  text-align: justify;
+}
+
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #104E8B;
+    color: white;
+    text-align: left;
+    padding: 50px;
+
+}
