@@ -4,13 +4,13 @@ header {
   padding: 5px;
 
 }
-body, input, textarea, nav, div, p {
+body, input, textarea, div, p {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #191970;
 
 }
 
-header, footer {
+header, footer, nav {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #E6E6FA;
 }
