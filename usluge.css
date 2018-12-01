@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.krugovi {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.krugovi div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin: 10px;
+}
