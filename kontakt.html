@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,57 +7,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navigacija.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-
 </head>
-
 <body>
-
     <header>
-
     <h1><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="logo" width="100">Web HACKS MA™</h1>
-
+    <nav>
+      <a href="index.html">Pocetna</a>
+      <a href="about.html">O nama</a>
+      <a href="usluge.html">Usluge</a>
+      <a href="kontakt.html">☎ Kontakt</a>
+    </nav>
     </header>
-
     <form method="post">
-
     <p><b>☎ Popricajmo o Vasem projektu</b> - postavite pitanje ili potrazite savet</p>
-
         <div>
             <label for="ime">Ime i prezime:</label>
             <input id="ime" name="ime" minlength="5" placeholder="Ovde unesite ime" required>
         </div>
-
         <div>
             <label for="telefon">Telefon:</label>
             <input id="telefon" minlenght="6" maxlenght="20" name="telefon" placeholder="+381" required>
         </div>
-
         <div>
             <label for="email">Email:</label>
             <input pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" type="email" id="email" name="email" placeholder="Ovde unesite email" required>
         </div>
-
         <div>
             <label for="poruka">Ostavite poruku</label>
             <textarea name="poruka" id="poruka" placeholder="Ovde unesite poruku"></textarea>
         </div>
-
-
-
         <div class="flex-right">
         <button>&#9993; Posalji</button>
         </div>
-
         </form>
         <div class="centar">
         <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="logo" width="100"><b>Web HACKS MA™</b></p>
         <p>email: webhacksma@gmail.com <br>Adresa: Pere Perica 35 <br>tel: 0642589547<br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5661.434317171865!2d20.431809650878897!3d44.80695255645554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1543669266404" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-
     <footer>
         © Copyright by Rodic & Ristic
     </footer>
 </body>
-
 </html>
