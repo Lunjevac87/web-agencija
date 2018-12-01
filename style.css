@@ -96,9 +96,7 @@ justify-content: right;
   }
 
 footer {
-  position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     background-color: #104E8B;
     color: white;
