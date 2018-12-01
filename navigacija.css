@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-bottom: 1px solid blue;
+    text-align: center;
+    text-transform:;
+}
+
+nav a:hover {
+    background: #bcd2ee;
+    color: #191970;
+}
+
+@media(min-width: 800px) {
+    nav {
+        text-align: center;
+        padding-right: 10%;
+    }
+    nav a {
+        display: inline-block;
+	}
+}
